@@ -1,0 +1,29 @@
+name: kpgc_ventures_website
+description: Official website of KPGC Ventures Pvt. Ltd. (Flutter Web).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  go_router: ^14.8.1
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  url_launcher: ^6.3.1
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/video/
